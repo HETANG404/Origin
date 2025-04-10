@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/styles/globals.css";
 
-
+import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer";
 
  export const metadata: Metadata = {
   title: 'Pixel + Geist Theme Switcher',
@@ -14,9 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body>
-        {children}
+    <html lang="en" className="h-full" suppressHydrationWarning>
+      <body className="flex mini-h-screen flex-col">
+              <Header />
+      
+                {children}
+                
+              <Footer />
+
       </body>
     </html>
   );

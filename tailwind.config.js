@@ -27,8 +27,13 @@ module.exports = {
             "footer-text": "#DC143C",
 
           },
-      },
+        },
     },
-    plugins: [],
+    plugins: [
+      require('@tailwindcss/typography'),
+    ],
+    corePlugins: {
+      preflight: true, // 可选：启用预设样式
+    },
   }
   

@@ -8,13 +8,13 @@ export default function HeroHome() {
 
             <div className="mx-auto max-w-6xl px-4 sm:px-6">
                 {/* Hero content */}
-                <div className="pb-12 pt-32 md:pb-20 md:pt-40">
+                <div className="pb-6 pt-32 md:pb-6 md:pt-40">
                     {/* Section header */}
                     <div className="pb-6 text-center">
                         <h1
                             className="mb-6 border-y border-transparent text-5xl font-extrabold leading-tight tracking-tight text-white md:text-6xl "
                             data-aos="zoom-y-out"
-                            data-aos-delay={150}
+                            data-aos-delay={25}
                         >
                             Coding, creating, and occasionally <br className="max-lg:hidden" />
                             obsessing over tiny details.
@@ -22,9 +22,9 @@ export default function HeroHome() {
                     </div>
 
                     <div
-                        className="mx-auto my-6 h-px w-300 border-t border-transparent [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
+                        className="mx-auto my-6 h-px w-300 border-t border-transparent [border-image:linear-gradient(to_right,transparent,theme(colors.slate.100),transparent)1]"
                         data-aos="zoom-y-out"
-                        data-aos-delay={200}
+                        data-aos-delay={800}
                     />
 
 
@@ -32,7 +32,7 @@ export default function HeroHome() {
                         <h2
                             className="text-6xl font-medium text-white leading-relaxed tracking-wide"
                             data-aos="zoom-y-out"
-                            data-aos-delay={300}
+                            data-aos-delay={150}
                         >
                             Glad you're here.
                         </h2>
@@ -43,7 +43,7 @@ export default function HeroHome() {
                             <div
                                 className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center gap-12"
                                 data-aos="zoom-y-out"
-                                data-aos-delay={450}
+                                data-aos-delay={250}
                             >
                                 <RedButton href="/about" className="bg-transparent">more about me</RedButton>
                                 <RedButton href="/contact" className="bg-transparent">contact me</RedButton>

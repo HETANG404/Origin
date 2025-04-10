@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
 
-import "@/app/globals.css";
+import "@/styles/globals.css";
 
 type RedButtonProps = {
   children: React.ReactNode;
@@ -27,7 +27,7 @@ export default function RedButton({
   );
 
   const textStyles =
-    "text-center justify-center text-white text-2xl font-normal leading-tight";
+    "text-center justify-center text-white text-2xl leading-tight";
 
   if (href) {
     return (

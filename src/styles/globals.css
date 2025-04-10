@@ -22,12 +22,12 @@
   }
 }
 
-body {
+html, body {
   background: var(--background);
   color: var(--foreground);
   /* font-family: Arial, var(--font-inter), Helvetica, sans-serif; */
   font-family: Arial;
-
+  height: 100%
 
 
 }
@@ -44,3 +44,4 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+

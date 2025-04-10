@@ -33,7 +33,7 @@ export default function HorizontalCard({
         <div className="self-stretch justify-start text-white text-2xl font-medium font-['Inter']">
           {title}
         </div>
-        <div className="self-stretch h-5 justify-start text-white text-[13px] font-normal font-['Inter']">
+        <div className="self-stretch h-5 justify-start text-white text-[20px] font-normal font-['Inter']">
           {subtitle}
         </div>
       </div>

@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-
 export default function DefaultLayout({
   children,
 }: {
@@ -22,12 +21,8 @@ export default function DefaultLayout({
   });
 
   return (
-    <>
 
+      <main className="grow">{children}</main>
 
-      <main className="flex-1">{children}</main>
-
-
-    </>
   );
 }

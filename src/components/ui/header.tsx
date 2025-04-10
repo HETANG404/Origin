@@ -1,5 +1,5 @@
 import LinkText from "../base_ui/link_text";
-import "@/app/globals.css";
+import "@/styles/globals.css";
 
 export default function Header({ border = false }: { border?: boolean }) {
     return (
@@ -29,7 +29,9 @@ export default function Header({ border = false }: { border?: boolean }) {
                 </div>
                 <div className="absolute left-8 top-[6px] inline-flex justify-center items-center gap-10">
                     <div className="px-0.5 flex justify-center items-center gap-2.5">
-                        <div className="text-center text-5xl font-bold font-inter leading-[48px]">ORI</div>
+                        <LinkText className="text-center text-5xl font-bold font-inter leading-[48px]" href="/home">
+                                ORI
+                        </LinkText>
                     </div>
                     <div className="text-center text-4xl font-normal font-inter leading-9">text</div>
                 </div>
