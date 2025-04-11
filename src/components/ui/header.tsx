@@ -1,7 +1,7 @@
 import LinkText from "../base_ui/link_text";
 import "@/styles/globals.css";
 
-export default function Header({ border = false }: { border?: boolean }) {
+export default function Header() {
     return (
         <header>
             <div className="w-full h-[60px] relative bg-header mb-6 mt-6 pl-6 pr-6">

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import LinkText from "../base_ui/link_text";
 import "@/styles/globals.css";
 

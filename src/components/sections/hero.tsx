@@ -34,7 +34,7 @@ export default function HeroHome() {
                             data-aos="zoom-y-out"
                             data-aos-delay={150}
                         >
-                            Glad you're here.
+                            Glad you&apos;re here.
                         </h2>
                     </div>
 
