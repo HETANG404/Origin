@@ -37,13 +37,13 @@ export default function HorizontalCard({
       )}
       <div className="w-[251px] left-[12px] top-[14px] absolute z-10 inline-flex flex-col justify-start items-center gap-2">
         <div
-          className="self-stretch justify-start text-2xl font-bold font-Silkscreen bg-white/70 px-2 py-1 rounded"
+          className="self-stretch justify-start text-2xl font-bold font-cardtext bg-white/70 px-2 py-1 rounded"
           style={{ color: "#000", textShadow: "1px 1px 2px rgba(0,0,0,0.2)" }}
         >
           {title}
         </div>
         <div
-          className="self-stretch h-7 flex items-center text-[20px] font-bold font-Silkscreen bg-white/70 px-2 rounded"
+          className="self-stretch h-7 flex items-center text-[20px] font-bold font-cardtext bg-white/70 px-2 rounded"
           style={{ color: "#000", textShadow: "1px 1px 2px rgba(0,0,0,0.2)" }}
         >
           {subtitle}
