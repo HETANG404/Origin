@@ -12,7 +12,7 @@ export default function HeroHome() {
                     {/* Section header */}
                     <div className="pb-6 text-center">
                         <h1
-                            className="mb-6 border-y border-transparent text-5xl font-extrabold leading-tight tracking-tight text-white md:text-6xl "
+                            className="mb-6 border-y border-transparent text-5xl font-extrabold leading-tight tracking-tight text-body-text md:text-6xl "
                             data-aos="zoom-y-out"
                             data-aos-delay={25}
                         >
@@ -22,7 +22,7 @@ export default function HeroHome() {
                     </div>
 
                     <div
-                        className="mx-auto my-6 h-px w-300 border-t border-transparent [border-image:linear-gradient(to_right,transparent,theme(colors.slate.100),transparent)1]"
+                        className="mx-auto my-6 h-px w-300 border-t-2 border-transparent [border-image:linear-gradient(to_right,transparent,var(--foreground),transparent)1]"
                         data-aos="zoom-y-out"
                         data-aos-delay={800}
                     />
@@ -30,7 +30,7 @@ export default function HeroHome() {
 
                     <div className="pb-12 text-center">
                         <h2
-                            className="text-6xl font-medium text-white leading-relaxed tracking-wide"
+                            className="text-6xl font-medium text-body-text leading-relaxed tracking-wide"
                             data-aos="zoom-y-out"
                             data-aos-delay={150}
                         >

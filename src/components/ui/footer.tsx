@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="text-footer-text text-[15px] font-normal leading-[15px]">
             @2025 ORI.Tang
           </div>
-          <div className="text-footer-text text-[15px] font-normal leading-[15px]">
+          <div className="text-[15px] font-normal leading-[15px]">
             CommunityGuidelines
           </div>
         </div>

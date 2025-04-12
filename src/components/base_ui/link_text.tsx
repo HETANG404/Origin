@@ -16,7 +16,7 @@ export default function LinkText({
   external = false,
 }: LinkTextProps) {
   const baseClasses =
-    "text-center justify-center text-white font-normal leading-tight";
+    "text-center justify-center font-normal leading-tight";
 
   // 如果有 href，渲染为链接
   if (href) {
