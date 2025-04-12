@@ -57,7 +57,7 @@ export default async function ProjectPage(props: { params: paramsType }) {
           alt={project.title}
           width={800}
           height={500}
-          className="rounded-lg mb-8 shadow mx-auto mt-6"
+          className="rounded-lg mb-8 shadow mx-auto mt-6 pb-12 pt-12"
         />
       )}
 

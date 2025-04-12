@@ -3,10 +3,16 @@
 
 /* font */
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 
 @theme{
   --font-inter:"Inter";
   --footer-gray: #D9D9D9;
+  --font-Silkscreen:"Silkscreen";
+  --font-press-start: "Press Start 2P"
 }
 
 
@@ -45,3 +51,6 @@ html, body {
   scrollbar-width: none;
 }
 
+.font-cardtext {
+  font-family: var(--font-Silkscreen);
+}

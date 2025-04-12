@@ -1,7 +1,12 @@
+
+
 import LinkText from "../base_ui/link_text";
 import "@/styles/globals.css";
 
+
+
 export default function Header() {
+
     return (
         <header>
             <div className="w-full h-[60px] relative bg-header mb-6 mt-6 pl-6 pr-6">
@@ -33,7 +38,7 @@ export default function Header() {
                                 ORI
                         </LinkText>
                     </div>
-                    <div className="text-center text-4xl font-normal font-inter leading-9">text</div>
+                    {/* <div className="text-center text-4xl font-normal font-inter leading-9">text</div> */}
                 </div>
             </div>
         </header>
