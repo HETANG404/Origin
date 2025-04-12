@@ -1,7 +1,7 @@
 
 
 import LinkText from "../base_ui/link_text";
-import "@/styles/globals.css";
+import ProfileIcon from "../base_ui/profile_icon";
 
 
 
@@ -28,14 +28,18 @@ export default function Header() {
                             </LinkText>
                         </div>
                     </div>
-                    <div className="w-[50px] h-[50px] relative">
-                        <div className="w-full h-full absolute bg-[#399ca7] rounded-full" />
+                    <div className="w-[50px] h-[50px] overflow-hidden avatar-rounded">
+
+                        <ProfileIcon
+                            imageUrl="/images/avatar.jpg"
+                            href="/profile"
+                        />
                     </div>
                 </div>
                 <div className="absolute left-8 top-[6px] inline-flex justify-center items-center gap-10">
                     <div className="px-0.5 flex justify-center items-center gap-2.5">
                         <LinkText className="text-center text-header-text text-5xl font-bold font-inter leading-[48px]" href="/home">
-                                ORI
+                            ORI
                         </LinkText>
                     </div>
                     {/* <div className="text-center text-4xl font-normal font-inter leading-9">text</div> */}

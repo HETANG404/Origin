@@ -17,7 +17,7 @@ export default function LinkText({
 }: LinkTextProps) {
   const baseClasses =
     "text-center justify-center font-normal leading-tight";
-
+  const combinedClass = clsx(baseClasses, className);
   // 如果有 href，渲染为链接
   if (href) {
     if (external) {
@@ -26,20 +26,19 @@ export default function LinkText({
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className={clsx(baseClasses, className)}
+          className={combinedClass}
         >
           {children}
         </a>
       );
     } else {
       return (
-        <Link href={href} className={clsx(baseClasses, className)}>
+        <Link href={href} className={combinedClass}>
           {children}
         </Link>
       );
     }
   }
 
-  // 否则就是普通文字
-  return <div className={clsx(baseClasses, className)}>{children}</div>;
+  return <div className={combinedClass}>{children}</div>;
 }

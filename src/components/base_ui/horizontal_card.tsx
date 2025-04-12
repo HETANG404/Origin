@@ -48,9 +48,7 @@ export default function HorizontalCard({
         >
           {subtitle}
         </div>
-
       </div>
-
     </div>
   );
 

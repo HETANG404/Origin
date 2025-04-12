@@ -1,5 +1,5 @@
 import LinkText from "../base_ui/link_text";
-import "@/styles/globals.css";
+
 
 export default function Footer() {
   return (
