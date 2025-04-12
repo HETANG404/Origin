@@ -1,8 +1,9 @@
-// components/base_ui/ProfileIcon.tsx
+"use client"; 
 
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
+import Image from "next/image";
 
 type ProfileIconProps = {
   imageUrl: string;
@@ -24,10 +25,12 @@ export default function ProfileIcon({
     className
   );
 
-  const imgElement = (
-    <img
+  const image = (
+    <Image
       src={imageUrl}
       alt={alt}
+      width={50}
+      height={50}
       className="w-full h-full object-cover block"
     />
   );
@@ -35,14 +38,14 @@ export default function ProfileIcon({
   if (href) {
     return (
       <Link href={href} className={baseStyles}>
-        {imgElement}
+        {image}
       </Link>
     );
   }
 
   return (
     <div onClick={onClick} className={baseStyles}>
-      {imgElement}
+      {image}
     </div>
   );
 }

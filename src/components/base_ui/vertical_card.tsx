@@ -14,7 +14,6 @@ type VerticalCardProps = {
 
 export default function VerticalCard({
   title,
-  subtitle,
   backgroundImage,
   href,
   className = "",
@@ -45,7 +44,6 @@ export default function VerticalCard({
     </div>
   );
 
-  const isExternal = href?.startsWith("http");
   if (href) {
     const isExternal = href.startsWith("http");
     return isExternal ? (
