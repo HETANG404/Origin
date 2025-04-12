@@ -1,15 +1,23 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import path from "path";
 import { readFile } from "fs/promises";
 import { marked } from "marked";
 import { projects } from "@/data/projects";
 import RedButton from "@/components/base_ui/red_button";
 
-type Props = {
-  params: { slug: string };
-};
 
-export default async function ProjectPage(props: Props) {
+
+// 静态生成所有 slug 页面（用于 SSG，防止构建出错）
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    slug: project.slug,
+  }));
+}
+
+export type paramsType = Promise<{ slug: string }>;
+
+export default async function ProjectPage(props: { params: paramsType }) {
 
   const markdownProseStyles = `
   prose mx-auto
@@ -44,10 +52,12 @@ export default async function ProjectPage(props: Props) {
       {project.subtitle && <p className="text-gray-500 text-3xl mb-6 mt-6">{project.subtitle}</p>}
 
       {project.cover && (
-        <img
+        <Image
           src={project.cover}
           alt={project.title}
-          className="rounded-lg mb-8 shadow mx-auto mt-6"
+          width={800}
+          height={500}
+          className="rounded-lg mb-8 shadow mx-auto mt-6 pb-12 pt-12"
         />
       )}
 

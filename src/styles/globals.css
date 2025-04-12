@@ -1,12 +1,14 @@
-@import "tailwindcss";
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-/* font */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+@import "tailwindcss";
+
+@tailwind utilities;
 
 @theme{
   --font-inter:"Inter";
   --footer-gray: #D9D9D9;
+  --font-cardtext:"Roboto Condensed";
+  
 }
 
 
@@ -45,3 +47,6 @@ html, body {
   scrollbar-width: none;
 }
 
+/* .font-cardtext {
+  font-family: var(--font-Silkscreen);
+} */

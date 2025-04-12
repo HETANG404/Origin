@@ -1,4 +1,3 @@
-import Link from "next/link";
 import LinkText from "../base_ui/link_text";
 import "@/styles/globals.css";
 
@@ -17,14 +16,14 @@ export default function Footer() {
         </div>
 
         {/* 中间分割线 */}
-        <div className="absolute top-[135px] left-[50%] -translate-x-1/2 w-[108%] h-0 outline outline-1 outline-offset-[-0.5px] outline-footer-text" />
+        <div className="absolute top-[135px] left-[50%] -translate-x-1/2 w-[108%] h-0 outline-1 outline-offset-[-0.5px] outline-footer-text" />
 
         {/* 左下版权与社区 */}
         <div className="absolute bottom-4 left-4 flex items-center gap-4">
           <div className="text-footer-text text-[15px] font-normal leading-[15px]">
             @2025 ORI.Tang
           </div>
-          <div className="text-footer-text text-[15px] font-normal leading-[15px]">
+          <div className="text-[15px] font-normal leading-[15px]">
             CommunityGuidelines
           </div>
         </div>
