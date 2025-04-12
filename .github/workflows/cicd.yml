@@ -59,4 +59,5 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/triorigin:latest
             docker run -d --name TriOrigin -p 42:3000 ${{ secrets.DOCKER_USERNAME }}/triorigin:latest
 
+            docker image prune -f  # 🔥 清理悬空镜像
             docker start TriOrigin
