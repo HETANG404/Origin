@@ -1,10 +1,6 @@
-// components/base_ui/RedButton.tsx
-
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
-
-import "@/styles/globals.css";
 
 type RedButtonProps = {
   children: React.ReactNode;

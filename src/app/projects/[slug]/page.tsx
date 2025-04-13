@@ -14,6 +14,19 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata(props: { params: paramsType }) {
+  const { slug } = await props.params;
+
+  const project = projects.find((p) => p.slug === slug);
+  if (!project) return notFound();
+  if (!project) return {};
+
+  return {
+    title: "Origin-" + project.title,
+    description: project.subtitle || "Project description",
+  };
+}
+
 export type paramsType = Promise<{ slug: string }>;
 
 export default async function ProjectPage(props: { params: paramsType }) {

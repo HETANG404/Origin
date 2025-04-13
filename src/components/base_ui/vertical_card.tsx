@@ -1,5 +1,3 @@
-// components/base_ui/VerticalCard.tsx
-
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";

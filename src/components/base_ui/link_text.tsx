@@ -16,7 +16,7 @@ export default function LinkText({
   external = false,
 }: LinkTextProps) {
   const baseClasses =
-    "text-center justify-center font-normal leading-tight";
+    "text-center p-2 justify-center font-normal leading-tight";
   const combinedClass = clsx(baseClasses, className);
   // 如果有 href，渲染为链接
   if (href) {

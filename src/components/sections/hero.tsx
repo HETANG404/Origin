@@ -45,7 +45,7 @@ export default function HeroHome() {
                                 data-aos-delay={250}
                             >
                                 <RedButton href="/about" className="bg-transparent">more about me</RedButton>
-                                <RedButton href="/contact" className="bg-transparent">contact me</RedButton>
+                                <RedButton href="/profile" className="bg-transparent">my resume</RedButton>
 
                             </div>
                         </div>
