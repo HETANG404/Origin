@@ -1,6 +1,6 @@
 // app/projects/[slug]/ProjectPage.tsx
 "use client";
-
+import { Project } from "@/types/project";
 import desktopStyles from "@/styles/project-markdown.module.css";
 import mobileStyles from "@/styles/project-markdown.mobile.module.css";
 import { useIsMobile } from "@/hooks/useIsMobile";
@@ -10,7 +10,7 @@ export default function ProjectPage({
   project,
   htmlContent,
 }: {
-  project: any;
+  project: Project;
   htmlContent: string;
 }) {
   const isMobile = useIsMobile();
