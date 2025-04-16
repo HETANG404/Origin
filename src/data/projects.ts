@@ -13,7 +13,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/TriOrigin.md",
+    markdownPath: "/TriOrigin.md",
     repo: "https://github.com/HETANG404/Origin",
     liveDemo: "http://tangorigin.com",
     date: "2025-4-12",
