@@ -23,7 +23,7 @@ export default function RedButton({
   );
 
   const textStyles =
-    "text-center justify-center text-white text-2xl leading-tight";
+    "text-center justify-center leading-tight";
 
   if (href) {
     return (

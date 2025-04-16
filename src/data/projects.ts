@@ -39,7 +39,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -65,7 +65,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -91,7 +91,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -117,7 +117,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/HETANG404/Priest",
     liveDemo: "https://yourname.vercel.app",
@@ -143,7 +143,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -169,7 +169,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -195,7 +195,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -221,7 +221,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -247,7 +247,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -273,7 +273,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -299,7 +299,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -325,7 +325,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -351,7 +351,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -377,7 +377,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -403,7 +403,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -429,7 +429,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -455,7 +455,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -481,7 +481,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -507,7 +507,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
@@ -533,7 +533,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",

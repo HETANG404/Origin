@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import styles from "@/styles/profilemarkdown.module.css";
+import styles from "@/styles/profile-markdown.module.css";
 import { getMarkdownContent } from "@/lib/getMarkdown";
 
 
