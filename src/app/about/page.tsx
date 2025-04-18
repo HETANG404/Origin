@@ -17,8 +17,8 @@ export default async function Home() {
 
   return (
     <article className="prose prose-neutral mx-auto max-w-7xl px-4 py-12">
-      <h1 className="text-6xl font-bold mb-2">MA MINGYANG</h1>
-      <h2 className="text-4xl font-bold mb-2">
+      <h1 className="text-5xl md:text-6xl font-bold mb-2">MA MINGYANG</h1>
+      <h2 className="text-3xl md:text-4xl font-bold mb-2">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—— Jastin Tang Alin
       </h2>
 

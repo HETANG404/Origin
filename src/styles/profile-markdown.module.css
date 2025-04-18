@@ -11,7 +11,7 @@
 }
 
 .markdownProse h2 {
-  @apply text-3xl font-bold mt-8 mb-4;
+  @apply text-3xl font-bold mt-10 mb-8;
   font-family: 'Outfit';
 }
 
@@ -38,7 +38,7 @@
 }
 
 .markdownProse img {
-  @apply rounded-lg mx-auto shadow-lg my-6;
+  @apply rounded-lg mx-auto shadow-lg mt-6;
 }
 
 .markdownProse hr {

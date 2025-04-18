@@ -16,14 +16,12 @@ type Project = {
   technology: string[];
   repo: string;
   liveDemo: string;
-  date: string;
+  startdate: string;
   servicesAvailable: string;
   status: string;
   tags: string[];
   team: string[];
-  role: string;
   duration: string;
-  featured: boolean;
 };
 
 const groupedProjects = [
@@ -67,7 +65,7 @@ function ProjectGroupSection({ title, projects }: ProjectGroupSectionProps) {
         {/* 手机端横滑布局 */}
         <div className="flex sm:hidden overflow-x-auto pb-4 gap-4 -mx-4 px-4">
           {projects.map((project) => (
-            <div key={`mobile-${project.slug}`} className="min-w-[80%] max-w-[80%]">
+            <div key={`mobile-${project.slug}`} className="w-[275px]">
               <HorizontalCard
                 title={project.title}
                 subtitle={project.subtitle}

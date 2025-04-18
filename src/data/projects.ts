@@ -6,25 +6,23 @@ export const projects = [
     type: "Tri",
     title: "TriOrigin",
     subtitle: "Personal website",
-    description: "TriOrigin description description description description description",
+    description: "A portfolio gallery for presenting projects and resumes.",
     cover: "/images/project_covers/Origin_logo.png",
     images: [
-      "/images/project_covers/TriOrigin.jpg",
-      "/images/project_covers/TriOrigin.jpg",
-      "/images/project_covers/TriOrigin.jpg"
+      "/images/TriOrigin/TriOrigin-001.png",
+      "/images/TriOrigin/TriOrigin-002.jpg",
+      "/images/TriOrigin/TriOrigin-003.jpg"
     ],
     markdownPath: "/TriOrigin.md",
     repo: "https://github.com/HETANG404/Origin",
-    liveDemo: "http://tangorigin.com",
-    date: "2025-4-12",
+    liveDemo: "https://tangorigin.com",
+    startdate: "2025-4-12",
     servicesAvailable: "true",
-    status: "done",
-    tags: ["Web", "UI/UX"],
-    technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    status: "updating",
+    tags: ["Web", "UI/Service"],
+    technology: ["Next.js", "Tailwind CSS", "AWS_EC2"],
     team: ["You"],
-    role: "设计 + 前端开发",
-    duration: "3 周",
-    featured: true
+    duration: "5 working days",
   },
   {
     // 2. TriVPhoenix
@@ -43,14 +41,13 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
     duration: "3 周",
-    featured: true
+
   },
   {
     // 3. TriAquartery
@@ -69,14 +66,13 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
     duration: "3 周",
-    featured: true
+
   },
   {
     // 4. TriDownace
@@ -95,14 +91,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 5. TriPriest
@@ -121,14 +117,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/HETANG404/Priest",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 6. TriOrbitient
@@ -147,14 +143,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 7. WE_XMI_Schema
@@ -173,14 +169,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 8. SSML
@@ -199,14 +195,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 9. SSCICD
@@ -225,14 +221,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 10. SSLib
@@ -251,14 +247,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 11. MLDT
@@ -277,14 +273,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 12. MLIllurstration
@@ -303,14 +299,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 13. MLDrumbeat
@@ -329,14 +325,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 14. UP_GDipRecemmendation 
@@ -355,14 +351,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 15. UP_GDipShoppongCart 
@@ -381,14 +377,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 16. UP_GDipFruitIdentification
@@ -407,14 +403,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 17. UP_ GDipMemoryGame
@@ -433,14 +429,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 18. UP_UGYOLOv8
@@ -459,14 +455,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 19. UP_UGLibraryManager
@@ -485,14 +481,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 20. UP_UGHadoopWordcount
@@ -511,14 +507,14 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 21. RPi
@@ -537,13 +533,13 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
 ]

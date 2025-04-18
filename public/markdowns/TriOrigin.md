@@ -1,5 +1,5 @@
 
-> 简洁明了的一句话介绍项目，例如：一个用于XXXX的轻量级工具 / 用于XXXX的Web平台。
+> A portfolio gallery for presenting projects and resumes.
 
 ---
 
@@ -41,9 +41,8 @@
 
 ## 🛠 技术栈
 
-- **前端**：Next.js、Tailwind CSS、Framer Motion
-- **后端**：Node.js、WebSocket、PostgreSQL
-- **部署**：Vercel（前端）、Render（后端）、Supabase（DB）
+- **前端**：Next.js、Tailwind CSS、MarkdownReader(marked)
+- **部署**：AWS-EC2 Nginx
 
 ---
 
@@ -55,35 +54,37 @@
 
 ## 📸 项目截图
 
-![首页界面](/images/Default_logo.png)  
-*TriOrigin 首页 UI 设计*
+![首页界面](/images/TriOrigin/TriOrigin-001.png)
+*TriOrigin 入口*
 
-![编辑页面](/images/Default_logo.png)  
-*项目编辑器*
+![着陆页面](/images/TriOrigin/TriOrigin-002.png)
+*landing page pc*
 
-![移动端适配](/images/Default_logo.png)  
-*响应式体验*
+![移动端适配](/images/TriOrigin/TriOrigin-003.png)
+*landing page mobile*
+
+![CV](/images/Default.png)
+*CV page*
 
 ---
 
 ## 👥 贡献者
 
 - 🎨 设计 + 前端：你自己
-- 🛠 后端协作：John Smith
-- 🧾 文档与测试：Jane Doe
 
 ---
 
 ## 📅 时间线
 
-- 2024.03 - 概念设计
-- 2024.04 - MVP 实现
-- 2024.05 - 正式发布
+- 2025.04.12 - 概念设计
+- 2024.04.13 - page实现
+- 2024.04.14 - 部署
+- 2024.04.15 - mobile_website.css
 
 ---
 
 ## 📈 当前状态
 
-- 🔄 2025-4-12 v1.0  进行中
+- 🔄 2025-4-18 v1.0  进行中
 
 ---

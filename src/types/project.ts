@@ -9,13 +9,11 @@ export type Project = {
     technology: string[];
     repo: string;
     liveDemo: string;
-    date: string;
+    startdate: string;
     servicesAvailable: string;
     status: string;
     tags: string[];
     team: string[];
-    role: string;
     duration: string;
-    featured: boolean;
   };
   

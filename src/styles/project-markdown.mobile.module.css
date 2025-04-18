@@ -26,7 +26,7 @@
 }
 
 .markdownProse img {
-  @apply rounded-lg mx-auto shadow-lg my-6;
+  @apply rounded-lg mx-auto shadow-lg mt-6 mb-2;
 }
 
 .markdownProse em {

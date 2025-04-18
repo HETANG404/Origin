@@ -25,9 +25,9 @@ export default function ProjectPage({
         <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       </div>
 
-      <div className="flex justify-center gap-4 mt-18 mb-36">
-        <RedButton href={project.repo}>Github Repo</RedButton>
-        <RedButton href={project.liveDemo}>{project.title}</RedButton>
+      <div className="flex justify-center gap-1 md:gap-4 mt-18 mb-36">
+        <RedButton className="bg-transparent md:text-2xl" href={project.repo}>Github Repo</RedButton>
+        <RedButton className="bg-transparent md:text-2xl" href={project.liveDemo}>{project.title}</RedButton>
       </div>
     </article>
   );

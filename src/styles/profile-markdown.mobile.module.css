@@ -21,7 +21,7 @@
 
 .markdownProse p,
 .markdownProse li {
-  @apply text-xl leading-relaxed;
+  @apply text-lg leading-relaxed;
   font-family: Calibri;
 }
 
