@@ -6,25 +6,23 @@ export const projects = [
     type: "Tri",
     title: "TriOrigin",
     subtitle: "Personal website",
-    description: "TriOrigin description description description description description",
-    cover: "/images/Origin_logo.png",
+    description: "A portfolio gallery for presenting projects and resumes.",
+    cover: "/images/project_covers/Origin_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/TriOrigin/TriOrigin-001.png",
+      "/images/TriOrigin/TriOrigin-002.jpg",
+      "/images/TriOrigin/TriOrigin-003.jpg"
     ],
-    markdownPath: "/markdowns/TriOrigin.md",
+    markdownPath: "/TriOrigin.md",
     repo: "https://github.com/HETANG404/Origin",
-    liveDemo: "http://tangorigin.com",
-    date: "2025-4-12",
+    liveDemo: "https://tangorigin.com",
+    startdate: "2025-4-12",
     servicesAvailable: "true",
-    status: "done",
-    tags: ["Web", "UI/UX"],
-    technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    status: "updating",
+    tags: ["Web", "UI/Service"],
+    technology: ["Next.js", "Tailwind CSS", "AWS_EC2"],
     team: ["You"],
-    role: "设计 + 前端开发",
-    duration: "3 周",
-    featured: true
+    duration: "5 working days",
   },
   {
     // 2. TriVPhoenix
@@ -33,24 +31,23 @@ export const projects = [
     title: "TriVPhoenix",
     subtitle: "VPN",
     description: "TriVPhoenix description description description description description",
-    cover: "/images/VPhoenix_logo.png",
+    cover: "/images/project_covers/VPhoenix_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
     duration: "3 周",
-    featured: true
+
   },
   {
     // 3. TriAquartery
@@ -59,24 +56,23 @@ export const projects = [
     title: "TriAquartery",
     subtitle: "Vocabulary Learning App",
     description: "TriOrigin description description description description description",
-    cover: "/images/Aquartery_logo.png",
+    cover: "/images/project_covers/Aquartery_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
     duration: "3 周",
-    featured: true
+
   },
   {
     // 4. TriDownace
@@ -85,50 +81,50 @@ export const projects = [
     title: "TriDownace",
     subtitle: "X Video Downloader",
     description: "DreamSpace description description description description description",
-    cover: "/images/X_logo.png",
+    cover: "/images/project_covers/X_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
-    // 5. TriPreist
-    slug: "TriPreist",
+    // 5. TriPriest
+    slug: "TriPriest",
     type: "Tri",
-    title: "TriPreist",
+    title: "TriPriest",
     subtitle: "Pixiv Scraper",
     description: "TriOrigin description description description description description",
-    cover: "/images/pixiv_logo.jpg",
+    cover: "/images/project_covers/pixiv_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/HETANG404/Priest",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 6. TriOrbitient
@@ -137,24 +133,24 @@ export const projects = [
     title: "TriOrbitient",
     subtitle: "Student Management",
     description: "DreamSpace description description description description description",
-    cover: "/images/Orbitient_logo.jpg",
+    cover: "/images/project_covers/Orbitient_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "true",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 7. WE_XMI_Schema
@@ -163,24 +159,24 @@ export const projects = [
     title: "XMI_Schema",
     subtitle: "Data to XMI",
     description: "TriOrigin description description description description description",
-    cover: "/images/Default_logo.png",
+    cover: "/images/project_covers/Default_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 8. SSML
@@ -189,24 +185,24 @@ export const projects = [
     title: "SSML",
     subtitle: "Machine Learning",
     description: "DreamSpace description description description description description",
-    cover: "/images/Self-studyML_logo.png",
+    cover: "/images/project_covers/Self-studyML_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 9. SSCICD
@@ -215,24 +211,24 @@ export const projects = [
     title: "SSCICD",
     subtitle: "CICD",
     description: "TriOrigin description description description description description",
-    cover: "/images/Self-studyCICD_logo.png",
+    cover: "/images/project_covers/Self-studyCICD_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 10. SSLib
@@ -241,24 +237,24 @@ export const projects = [
     title: "SSLib",
     subtitle: "Custom Library",
     description: "DreamSpace description description description description description",
-    cover: "/images/Self-studyLib_logo.png",
+    cover: "/images/project_covers/Self-studyLib_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 11. MLDT
@@ -267,24 +263,24 @@ export const projects = [
     title: "MLDT",
     subtitle: "DT Model",
     description: "TriOrigin description description description description description",
-    cover: "/images/ML_DT_logo.png",
+    cover: "/images/project_covers/ML_DT_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 12. MLIllurstration
@@ -293,24 +289,24 @@ export const projects = [
     title: "MLIllurstration",
     subtitle: "Image Clustering Model",
     description: "DreamSpace description description description description description",
-    cover: "/images/ML_Illurstration_logo.png",
+    cover: "/images/project_covers/ML_Illurstration_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 13. MLDrumbeat
@@ -319,24 +315,24 @@ export const projects = [
     title: "MLDrumbeat",
     subtitle: "Music Beat Detection",
     description: "TriOrigin description description description description description",
-    cover: "/images/ML_Drumbeat_logo.png",
+    cover: "/images/project_covers/ML_Drumbeat_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 14. UP_GDipRecemmendation 
@@ -345,24 +341,24 @@ export const projects = [
     title: "GDipFoodRec",
     subtitle: "FoodRec Capstone",
     description: "TriOrigin description description description description description",
-    cover: "/images/NUS_logo.jpg",
+    cover: "/images/project_covers/NUS_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 15. UP_GDipShoppongCart 
@@ -371,24 +367,24 @@ export const projects = [
     title: "GDipShoppongCart",
     subtitle: "ShoppongCartSystem Java",
     description: "DreamSpace description description description description description",
-    cover: "/images/NUS_logo.jpg",
+    cover: "/images/project_covers/NUS_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 16. UP_GDipFruitIdentification
@@ -397,24 +393,24 @@ export const projects = [
     title: "GDipFruitclassify",
     subtitle: "FruitIdentification ML",
     description: "TriOrigin description description description description description",
-    cover: "/images/NUS_logo.jpg",
+    cover: "/images/project_covers/NUS_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 17. UP_ GDipMemoryGame
@@ -423,24 +419,24 @@ export const projects = [
     title: "GDipMemoryGame",
     subtitle: "MemoryGame Android",
     description: "DreamSpace description description description description description",
-    cover: "/images/NUS_logo.jpg",
+    cover: "/images/project_covers/NUS_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 18. UP_UGYOLOv8
@@ -449,24 +445,24 @@ export const projects = [
     title: "UGYOLOv8",
     subtitle: "CrowdCount Capstone",
     description: "DreamSpace description description description description description",
-    cover: "/images/SYUT_logo.png",
+    cover: "/images/project_covers/SYUT_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 19. UP_UGLibraryManager
@@ -475,24 +471,24 @@ export const projects = [
     title: "UGLibraryManager",
     subtitle: "Library Management",
     description: "DreamSpace description description description description description",
-    cover: "/images/SYUT_logo.png",
+    cover: "/images/project_covers/SYUT_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 20. UP_UGHadoopWordcount
@@ -501,24 +497,24 @@ export const projects = [
     title: "UGHadoopWordcount",
     subtitle: "Distributed Computing",
     description: "DreamSpace description description description description description",
-    cover: "/images/SYUT_logo.png",
+    cover: "/images/project_covers/SYUT_logo.png",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
   {
     // 21. RPi
@@ -527,23 +523,23 @@ export const projects = [
     title: "RPi",
     subtitle: "Coming Soon",
     description: "DreamSpace description description description description description",
-    cover: "/images/RaspberryPi_logo.jpg",
+    cover: "/images/project_covers/RaspberryPi_logo.jpg",
     images: [
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg",
-      "/images/TriOrigin.jpg"
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg",
+      "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/markdowns/Template.md",
+    markdownPath: "/Template.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    date: "2024-11",
+    startdate: "2024-11",
     servicesAvailable: "false",
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-    role: "设计 + 前端开发",
+
     duration: "3 周",
-    featured: true
+
   },
 ]
