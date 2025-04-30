@@ -6,17 +6,16 @@
 
 ---
 
-# 🧑‍💻 **Professional Summary**
+## 🧑‍💻 **Professional Summary**
 
 Detail-oriented and proactive IT professional with over X years of experience in software development, system design, and cloud-based infrastructure. Proven track record of delivering scalable web and mobile applications using modern tech stacks. Passionate about clean code, agile methodology, and continuous learning. Currently seeking challenging opportunities in Singapore’s dynamic tech sector.
 
 ---
 
-# 💼 **Work Experience**
+## 💼 **Work Experience**
 
 **Software Engineer**  
-<span style="float:right">Jan 2022 – Present</span> 
-*Company Name, Location*  
+*Company Name, Location*<span style="float:right">*2024.3 – 2024.6*</span> 
 
 
 - Led the development of a microservices-based e-commerce platform using **Node.js**, **React**, and **MongoDB**, resulting in a 30% performance improvement. 
@@ -28,9 +27,9 @@ Detail-oriented and proactive IT professional with over X years of experience in
 
 <br>
 
-**Full-Stack Developer (Intern → Junior)**  
-<span style="float:right">Jun 2020 – Dec 2021</span> 
-*Another Company Name, Location*  
+**Software Developer**  
+*Another Company Name, Location*<span style="float:right">*2025.3 – 2025.7*</span> 
+
 
 - Built internal tools for sales analytics using **Python (Flask)** and **PostgreSQL**.  
 - Migrated legacy front-end to **Vue.js**, improving UI responsiveness and UX metrics.  
@@ -38,39 +37,64 @@ Detail-oriented and proactive IT professional with over X years of experience in
 
 ---
 
-# 🛠️ **Technical Skills**
 
-- **Languages**: JavaScript, TypeScript, Python, Java  
-- **Front-End**: React, Vue, HTML/CSS, Tailwind, Next.js  
-- **Back-End**: Node.js, Express, Flask, REST APIs  
-- **Database**: PostgreSQL, MongoDB, MySQL  
-- **Cloud & DevOps**: AWS (EC2, S3, Lambda), Docker, GitHub Actions, Nginx  
-- **Tools**: Git, Jira, VS Code, Figma
+## 🛠️ **Technical Skills**
+
+**Programming Languages**  
+- Python, C#, Java, Kotlin, TypeScript, JavaScript, HTML, CSS
+
+**Frontend Development**  
+- React (incl. Next.js), Vue3, Kotlin-based frontend, Tailwind CSS, HTML/CSS/JS
+
+**Backend Development**  
+- .NET Core, Spring Boot, Flask, Django, RESTful API design
+
+**Databases**  
+- MySQL
+
+**Cloud & DevOps**  
+- AWS EC2, Docker, Nginx, GitHub Actions (CI/CD), Git (version control)
+
+**Software Architecture**  
+- C# library development and NuGet publishing
+
+**Data & Machine Learning**  
+- Basic machine learning, web scraping, Hadoop MapReduce
+
+**UI/UX & Prototyping**  
+- Figma
+
 
 ---
 
-# 📚 **Education**
+## 🎓 **Education**
 
-**Bachelor of Science in Computer Science**  
-<span style="float:right">2016 – 2020</span> 
-*University Name, Country*  
+**Graduate Diploma in Systems Analysis**  
+*NUS Institute of Systems Science, Singapore* <span style="float:right">*2024 – 2025*</span>  
 
-- Relevant courses: Data Structures, Web Development, Cloud Computing  
-- Final Year Project: Developed a smart chatbot for university services (NLP + Python)
+- Key modules: Software Design & Agile Development, CI/CD, User Requirement Analysis, DevOps & Cloud Deployment  
+- Technologies & Tools: React (frontend), Java Spring Boot (backend), C# (.NET), Kotlin (full-stack), AWS EC2, GitHub Actions  
+- Project Experience:  
+  - Participated in a digital transformation project for a fruit and vegetable distributor using React and Spring Boot  
+  - Developed a full-stack memory game app using Kotlin and a CNN-based fruit recognition model  
+- Also covered foundational concepts in machine learning
 
 <br>
 
-**Bachelor of Science in Computer Science**  
-<span style="float:right">2016 – 2020</span> 
-*University Name, Country*  
+**Bachelor of Science in Data Science and Big Data Technology**  
+*Shenyang University of Technology, China* <span style="float:right">*2020 – 2024*</span>  
 
-- Relevant courses: Data Structures, Web Development, Cloud Computing  
-- Final Year Project: Developed a smart chatbot for university services (NLP + Python)
-
+- Relevant coursework: Database Systems, Java Algorithms, Python Programming, Hadoop MapReduce, Intro to Machine Learning  
+- Technologies & Tools: Vue 3 (frontend), Spring Boot (backend), Python, MySQL  
+- Capstone project: YOLOv8-based pedestrian counting system  
+  - Integrated OpenCV with Flask to visualize detection results from pre-trained GitHub models  
+- Other projects: Library Management System using Spring Boot
 
 ---
 
-# 📁 **Projects**
+
+
+## 📁 **Projects**
 
 **SmartResume Builder (2024)**  
 GitHub: github.com/yourname/smartresume  

@@ -19,23 +19,25 @@ export default function ProfileContent({ htmlContent }: { htmlContent: string })
 
       <div className="flex flex-col mt-20 mb-10 mx-auto">
         <LinkText
-          href="https://www.linkedin.com/in/mingyang-ma-039a3731b"
-          className="bg-transparent text-lg md:text-2xl text-left"
+          href="https://github.com/HETANG404"
+          className="bg-transparent text-blue-600 underline hover:text-blue-800 text-lg md:text-xl text-left"
         >
           <span className="inline md:hidden">Github &gt;&gt;&gt;</span>
           <span className="hidden md:inline">
-            Github:&nbsp;&nbsp; https://github.com/HETANG404
+            Github:&nbsp; https://github.com/HETANG404
           </span>
         </LinkText>
+
         <LinkText
           href="https://www.linkedin.com/in/mingyang-ma-039a3731b"
-          className="bg-transparent text-lg md:text-2xl text-left"
+          className="bg-transparent text-blue-600 underline hover:text-blue-800 text-lg md:text-xl text-left"
         >
           <span className="inline md:hidden">LinkIn &gt;&gt;&gt;</span>
           <span className="hidden md:inline">
             LinkIn:&nbsp;&nbsp; https://www.linkedin.com/in/mingyang-ma-039a3731b
           </span>
         </LinkText>
+
       </div>
 
       <div className={`prose ${styles.markdownProse}`}>
